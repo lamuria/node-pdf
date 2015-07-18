@@ -10,10 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "bunyan": "^1.4.0",
+    "jasmine-node": "^1.14.5",
     "joi": "^6.5.0",
     "joy": "^0.1.1",
     "knox": "^0.9.2",
     "node-uuid": "^1.4.3",
     "restify": "^3.0.3"
+  },
+  "scripts" : {
+    "test" : "jasmine-node spec"
   }
 }

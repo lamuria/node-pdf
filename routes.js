@@ -3,6 +3,6 @@ var core = require('./core');
 var validating = require('./middleware/validating');
 var schemas = require('./schemas');
 
-server.post('/pdf',
+server.post('/generate/pdf',
            validating(schemas.params),
            core.pdf);

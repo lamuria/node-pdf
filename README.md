@@ -7,3 +7,7 @@ To start the server you should use the following command:
 
 ### Usage
 `curl -i -X POST localhost:8080/generate/pdf --data '{"url": "https://en.wikipedia.org/wiki/Scottish_National_Antarctic_Expedition", "filename": "wiki"}' -H 'content-type: application/json'`
+
+Returns
+
+`{url: URL_TO_PDF}`
